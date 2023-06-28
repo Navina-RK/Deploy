@@ -1,0 +1,8 @@
+[user]
+	email = navina.rk06@gmail.com
+	name = Navina-RK
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
